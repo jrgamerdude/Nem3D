@@ -15,7 +15,7 @@ npm run tauri signer generate -- -w .\tauri-updater.key
 4. Kopier public key ind i `src-tauri/tauri.conf.json` under `plugins.updater.pubkey`.
 5. Gem private key som GitHub secret `TAURI_SIGNING_PRIVATE_KEY`.
 6. Gem key password som GitHub secret `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`, hvis du valgte password.
-7. Ret updater URL i `src-tauri/tauri.conf.json`, hvis repoet ikke hedder `Sigurd/Nem3D`.
+7. Ret updater URL i `src-tauri/tauri.conf.json`, hvis repoet ikke hedder `jrgamerdude/Nem3D`.
 
 ## Udgiv en version
 

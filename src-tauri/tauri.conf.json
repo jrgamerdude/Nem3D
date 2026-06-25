@@ -44,7 +44,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/Sigurd/Nem3D/releases/latest/download/latest.json"
+        "https://github.com/jrgamerdude/Nem3D/releases/latest/download/latest.json"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcxOUJBMTBBNkE2QkY1RDkKUldUWjlXdHFDcUdiY1RFT3JBdVAzWThIQVZZRTN2U01SbS92cTBEcFh5U2daOEJvdUh3SHRxNUUK"
     }
