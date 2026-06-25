@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Tauri/Rust build output
+src-tauri/target/
+src-tauri/gen/
+
+# Local updater signing keys - DO NOT COMMIT
+*.key
+*.key.pub
+tauri-updater.key
+tauri-updater.key.pub
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+.cache/
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Codex local files
+outputs/
+work/
