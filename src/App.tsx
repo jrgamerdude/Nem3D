@@ -22,7 +22,7 @@ import { createProjectFile, decodeProjectModel, parseProjectFile, serializeProje
 import { makeExportName, makeProjectName } from "./lib/modelNames";
 import type { SceneSummary, SelectionInfo, TransformMode } from "./types";
 
-const appVersion = "0.1.0";
+const appVersion = "0.1.1";
 
 export function App() {
   const viewportRef = useRef<SceneViewportHandle | null>(null);
